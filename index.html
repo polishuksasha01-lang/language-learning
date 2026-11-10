@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Language learning</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+  <h2>Language learning</h2>
+  <p>Крок: <span id="step">0</span> / <span id="total">0</span></p>
+  <p>Вірно: <span id="good">0</span> | Невірно: <span id="bad">0</span></p>
+
+  <div id="card"><span id="word"></span></div>
+  <input type="text" id="answer" placeholder="Введіть переклад">
+  <p>Натисніть на картку, щоб перевірити</p>
+
+  <div id="modal">
+    <h3>Ваш рівень: <span id="level"></span></h3>
+    <p>Правильних відповідей: <span id="result"></span></p>
+    <input type="button" value="Спробувати ще" id="again">
+  </div>
+</body>
+</html>

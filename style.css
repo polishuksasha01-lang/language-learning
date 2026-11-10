@@ -1,0 +1,36 @@
+body {
+  background-color: #eef2f7;
+  font-family: Arial;
+  text-align: center;
+}
+#card {
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 30px 10px;
+  background-color: white;
+  border: 2px solid #4a6fa5;
+  cursor: pointer;
+  font-size: 28px;
+}
+#answer {
+  width: 80%;
+  max-width: 300px;
+  padding: 8px;
+}
+.error {
+  border: 2px solid red;
+}
+#modal {
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #4a6fa5;
+}
+@media (max-width: 500px) {
+  #card { font-size: 22px; }
+}
